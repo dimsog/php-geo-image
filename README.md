@@ -29,4 +29,4 @@ $coordinates = Coordinates::extract(__DIR__ . '/image.jpg');
 // ]
 ```
 
-This method return null, if coordinates not found
+This method returns null, if the coordinates are not found
