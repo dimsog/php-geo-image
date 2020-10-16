@@ -1,5 +1,5 @@
 # Dimsog\Geoimage
-A very small library to extract geo coordinates (longitude and latitude) from an image
+A very small library to extract geo coordinates (latitude and longitude ) from an image
 
 Supported PHP versions:
 * PHP 5.4
