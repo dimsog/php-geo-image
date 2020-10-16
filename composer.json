@@ -1,0 +1,31 @@
+{
+  "name": "dimsog/php-geo-image",
+  "description": "A very small library to extract geo coordinates (longitude and latitude) from an image",
+  "keywords": ["php image coordinates", "php lat lng", "php longitude image", "php latitude image"],
+  "type": "library",
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/dimsog/php-geo-image/issues",
+    "source": "https://github.com/dimsog/php-geo-image"
+  },
+  "authors": [
+    {
+      "name": "Dmitry R",
+      "email": "dimsog@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "ext-json": "*",
+    "ext-exif": "*",
+    "php": ">=5.4.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "Dimsog\\Geoimage\\": "src"
+    }
+  }
+}
