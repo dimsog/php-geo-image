@@ -28,3 +28,5 @@ $coordinates = Coordinates::extract(__DIR__ . '/image.jpg');
 //      35.369734 (Longitude)
 // ]
 ```
+
+This method return null, if coordinates not found
